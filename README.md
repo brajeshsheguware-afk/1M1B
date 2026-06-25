@@ -12,6 +12,8 @@
 
 DEMO LINK- https://brajeshsheguware-afk.github.io/1M1B/PROTO.HTML
 
+PPT LINK - https://docs.google.com/presentation/d/1eE_DnNmRnc7EezpciHDvCvHsoRIoEjiS/edit?usp=sharing&ouid=104567410511011194152&rtpof=true&sd=true
+
 ---
 
 # SDG Alignment
