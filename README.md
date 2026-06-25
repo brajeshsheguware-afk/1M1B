@@ -6,7 +6,7 @@
 
 **Internship:** 1M1B AI for Sustainability Virtual Internship (IBM SkillsBuild & AICTE)
 
-**Student Name:**K.Brajesh Sheguware
+**Student Name:** K.Brajesh Sheguware
 
 **College Name:** Kamaraj College,Thoothukudi
 
