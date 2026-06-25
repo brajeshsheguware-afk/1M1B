@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sustainable Public Transport Assistant</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+}
+
+/* Navbar */
+
+nav{
+    background:#0ea5e9;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+/* Hero */
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#d1d5db;
+}
+
+.hero button{
+    margin-top:25px;
+    padding:15px 35px;
+    border:none;
+    background:#22c55e;
+    color:white;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+/* Prediction Form */
+
+.container{
+    width:85%;
+    margin:auto;
+    margin-top:40px;
+}
+
+.card{
+    background:white;
+    color:black;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.card h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#0f172a;
+}
+
+.form-group{
+    margin-bottom:15px;
+}
+
+label{
+    font-weight:bold;
+}
+
+input,select{
+    width:100%;
+    padding:12px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.predict-btn{
+    width:100%;
+    background:#0ea5e9;
+    color:white;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+/* Dashboard */
+
+.dashboard{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:40px;
+}
+
+.box{
+    background:white;
+    color:black;
+    padding:25px;
+    text-align:center;
+    border-radius:15px;
+}
+
+.box h3{
+    color:#0ea5e9;
+    margin-bottom:10px;
+}
+
+.box p{
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* Footer */
+
+footer{
+    margin-top:50px;
+    background:#0ea5e9;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">🚍 Smart Transport AI</div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Prediction</a></li>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <h1>Sustainable Public Transport Assistant</h1>
+    <p>AI Powered Delay Prediction & Smart Route Recommendation System</p>
+    <button>Explore Now</button>
+</section>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>Predict Transport Delay</h2>
+
+        <div class="form-group">
+            <label>Transport Type</label>
+            <select>
+                <option>Bus</option>
+                <option>Train</option>
+                <option>Metro</option>
+                <option>Tram</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Weather Condition</label>
+            <select>
+                <option>Sunny</option>
+                <option>Rainy</option>
+                <option>Cloudy</option>
+                <option>Foggy</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Traffic Congestion Index</label>
+            <input type="number" placeholder="Enter Traffic Level">
+        </div>
+
+        <div class="form-group">
+            <label>Peak Hour</label>
+            <select>
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+        </div>
+
+        <button class="predict-btn">Predict Delay</button>
+
+    </div>
+
+    <div class="dashboard">
+
+        <div class="box">
+            <h3>Predicted Delay</h3>
+            <p>12 Min</p>
+        </div>
+
+        <div class="box">
+            <h3>Traffic Level</h3>
+            <p>Medium</p>
+        </div>
+
+        <div class="box">
+            <h3>Weather Status</h3>
+            <p>Rainy</p>
+        </div>
+
+        <div class="box">
+            <h3>Delay Probability</h3>
+            <p>85%</p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <h3>AI for Sustainability Project | Sustainable Public Transport Assistant</h3>
+</footer>
+
+</body>
+</html>
