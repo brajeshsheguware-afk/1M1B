@@ -211,6 +211,55 @@ The system is intended only to support travel planning and sustainable transport
 
 ---
 
+Delay Distribution
+
+
+<img width="695" height="470" alt="image" src="https://github.com/user-attachments/assets/36a76792-6671-4129-a24a-1b5a2a731dd0" />
+
+---
+
+
+Weather vs Delay
+
+
+<img width="842" height="500" alt="image" src="https://github.com/user-attachments/assets/c1b3ef6a-e100-4c5a-bf69-5679069d82ef" />
+
+
+---
+
+Transport Type Analysis
+
+
+<img width="695" height="470" alt="image" src="https://github.com/user-attachments/assets/80a4529c-af46-4626-8923-7081c530b93d" />
+
+
+---
+
+Traffic Congestion Analysis
+
+<img width="687" height="470" alt="image" src="https://github.com/user-attachments/assets/602898c8-db25-434e-8819-e916b5031e23" />
+
+
+---
+
+Delayed vs Not Delayed
+
+<img width="549" height="393" alt="image" src="https://github.com/user-attachments/assets/11999aef-a634-4bd2-945f-3c4de579954a" />
+
+---
+
+CONFUSION MATRIX
+
+
+<img width="510" height="393" alt="image" src="https://github.com/user-attachments/assets/0ddef16e-2c09-4402-b028-f6cc6fd7b71f" />
+
+
+---
+ FEATURE IMPORTANCE
+ <img width="997" height="547" alt="image" src="https://github.com/user-attachments/assets/e2ac6981-b308-4086-baf4-20580797711f" />
+
+---
+
 # Expected Impact
 
 ### Environmental Impact
