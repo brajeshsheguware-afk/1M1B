@@ -10,6 +10,8 @@
 
 **College Name:** Kamaraj College,Thoothukudi
 
+DEMO LINK- https://brajeshsheguware-afk.github.io/1M1B/PROTO.HTML
+
 ---
 
 # SDG Alignment
